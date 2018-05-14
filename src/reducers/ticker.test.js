@@ -4,7 +4,7 @@ import { FETCH_TICKER_SUCCESS } from '../action-types/bitfinex';
 import { spy } from 'sinon';
 import tickerReducer from './ticker';
 
-describe('Account reducer', () => {
+describe('Ticker reducer', () => {
   it('should return btc price when called with ticker object', () => {
     expect(tickerReducer({ amountUSD: 100}, { ticker: { last_price: '10.00'}, USDTraded: 10, type: FETCH_TICKER_SUCCESS }))
       .to.equal(10.00);
