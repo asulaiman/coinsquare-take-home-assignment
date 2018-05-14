@@ -1,0 +1,7 @@
+@import "account-balance";
+@import "trade-input";
+@import "trade-quote";
+.currency-pair-trading {
+  padding: 15px 50px 50px 50px;
+  background-color: $bg-color;
+}

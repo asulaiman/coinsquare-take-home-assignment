@@ -1,0 +1,36 @@
+$amount-font-size: 14px;
+.trade-input {
+  margin-bottom: $spacer;
+  .section-heading {
+    margin-bottom: $spacer;
+  }
+  .currency {
+    width: 100%;
+    height: $input-height;
+    margin-bottom: $spacer;
+    padding: 0 $input-padding;
+    border: 1px solid $medium-grey;
+    font-size: 16px;
+    line-height: $input-height;
+    color: $black;
+  }
+  .amount {
+    width: 100%;
+    height: $input-height;
+    padding: 0 $input-padding;
+    background-color: transparent;
+    border: 1px solid $dark-grey;
+    font-size: $amount-font-size;
+    line-height: $input-height;
+    color: $black;
+  }
+  .amount.invalid {
+    border: 1px solid red;
+    color: $invalid-font;
+  }
+  .error {
+    color: $invalid-font;
+    font-size: $amount-font-size;
+    margin-top: 10px;
+  }
+}

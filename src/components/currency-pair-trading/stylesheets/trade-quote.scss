@@ -1,0 +1,25 @@
+.trade-quote {
+  margin-bottom: $spacer;
+  .section-heading {
+    margin-bottom: $spacer;
+  }
+  .currency {
+    width: 100%;
+    height: $input-height;
+    margin-bottom: 25px;
+    padding: 0 $input-padding;
+    border: 1px solid $off-black;
+    font-size: 16px;
+    line-height: $input-height;
+    color: $black;
+  }
+  .quote {
+    width: 100%;
+    height: $input-height;
+    padding: 0 $input-padding;
+    border: 1px solid $dark-grey;
+    font-size: 14px;
+    line-height: $input-height;
+    color: $dark-grey;
+  }
+}
